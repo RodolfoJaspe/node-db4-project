@@ -1,6 +1,6 @@
 require("dotenv").config()
 
-const port = process.env.port
+const port = process.env.PORT
 
 const server = require("./api/server.js")
 
